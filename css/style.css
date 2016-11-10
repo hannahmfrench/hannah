@@ -261,7 +261,6 @@ MOVING IMAGES/ PROJECTS / STILL IMAGES
   border-radius: 51%;
   opacity: 1;
   text-align: center;
-
 }
 
 
@@ -956,13 +955,6 @@ body {
   padding-bottom: 5%;
 }
 
-#imageWrapper .preview h3 {
-  display: none;
-}
-
-#imageWrapper .after {
-  display: none;
-}
 
 .mobile-project-title {
   padding: 2% 0% 0% 0%;
