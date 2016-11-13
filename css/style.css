@@ -115,7 +115,7 @@ body {
   margin-bottom: 12px;
   border-bottom: 2px solid #d16903;
   list-style: none;
-  color:  #0306D1;
+  color:  #9d0233;
   transition: all 150ms ease;
   background-color: #f7f7f7;
 }
@@ -169,14 +169,281 @@ body {
   padding: 0.5em;
 }
 
+
+
+/* ====================================
+CONTACT
+==================================== */
+
+#contactDetails {
+  width: 100%;
+  padding-top: 20%;
+}
+
+.details {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.detailsText {
+  padding: 5% 5% 5% 15%;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-style: italic;
+  font-family: 'Dosis', sans-serif; 
+}
+
+.detailsMobile {
+  padding: 5% 5% 5% 15%;
+  width: 45%;
+  color: #9d0233;
+  font-weight: 400;
+  display: flex;
+}
+
+.contactForm {
+  width: 55%;
+  padding: 0% 15% 5% 5%;
+}
+
+.contactForm form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 100%;
+
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #d16903;
+  border-radius: 1em;
+}
+
+.contactForm div + div {
+  margin-top: 1em;
+}
+
+.contactForm label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  padding: 2%;
+  color: #9d0233;
+  background-color: #f7f7f7;
+}
+
+.contactForm input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font-size: 1.5em;
+  font-family: 'Dosis', sans-serif; 
+  padding-left: 1em;
+
+  /* To give the same size to all text field */
+  width: 100%;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #9d0233;
+}
+
+.contactForm input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: #000;
+}
+
+.contactForm textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 100%;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.contactForm .button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 20%; /* same size as the label elements */
+}
+
+.contactForm button {
+  /* This extra magin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+  font-size: 1em;
+  font-family: 'Dosis', sans-serif; 
+  font-weight: 400;
+  padding: 0.5em;
+  background-color: #f7f7f7;
+  color: #9d0233;
+  border: 1px solid #9d0233;
+  border-radius: 0.5em;
+}
+
+.detailsMobile a {
+  padding: 10% 2% 2% 2%;
+  width: 200px;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-style: italic;
+  font-family: 'Dosis', sans-serif; 
+  color: #9d0233;
+}
+
+.detailsMobile img {
+  width: 71px;
+  height: 112px;
+}
+
+.detailsMobile a:link {color: #9d0233; text-decoration: none; }
+.detailsMobile a:visited {color: #9d0233; text-decoration: none; }
+.detailsMobile a:hover {color: #9d0233; text-decoration: none; }
+.detailsMobile a:active {color: #9d0233; text-decoration: none; }
+
+
 /* ====================================
 HOME
 ==================================== */
-.mainContent {
+#mainContent {
   padding-top: 70px;
   padding-bottom: 70px;
+  height: 500px;
   background-color: #f7f7f7;
 }
+
+
+/* ====================================
+ABOUT
+==================================== */
+
+
+#about-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 15% 4% 4% 4%;
+  background-color: #f7f7f7;
+}
+
+.title-wrapper-about {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.4em;
+  line-height: 2em;
+  font-weight: 700;
+  color: #000;
+  width: 100%;
+  padding: 10% 2% 2% 2%;
+}
+
+.text-wrapper-about {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 1.5em;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #000;
+  background-color: #f7f7f7;
+  padding: 5% 2% 5% 2%;
+}
+
+.creative-projects {
+  padding: 5% 2% 0% 2%;
+}
+
+.creative-projects h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.5em;
+}
+
+.creative-projects span {
+  font-weight: 900;
+}
+
+.textBio-left {
+  width: 45%;
+  float: left;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.textBio-right {
+  width: 45%;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.image-wrapper-about {
+  display: block;
+}
+
+.image-wrapper-about img {
+  border: #000 solid 0.02px;
+  border-radius: 3.5%;
+}
+
+.column-1-3 {
+  float: center;
+}
+
+.text-holder{
+  display: none;
+}
+
+.image-holder{
+  position: relative;
+  margin: 0 auto;
+  width: 350px;
+  height: 260px;
+}
+
+.head-image,.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 350px;
+}
+
+.head-image{
+    z-index: 0;
+}
+
+.circle{
+    z-index: 2;
+}
+
+.front{
+    z-index: 1;
+}
+
+.widget{
+  padding: 30px 60px;
+  position: relative;
+  top: 0;
+}
+
 
 /* ====================================
 MOVING IMAGES/ PROJECTS / STILL IMAGES
@@ -241,12 +508,12 @@ MOVING IMAGES/ PROJECTS / STILL IMAGES
 
 #imageWrapper .preview h3 {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.2em;
   font-weight: 400;
-  margin-top: 4em;
+  margin-top: 4.2em;
   border-radius: 50%;
   color:  #0306D1;
 }
@@ -272,7 +539,7 @@ PROJECT SPECIFIC PAGES
   display: inline-block;
 }
 
-.left {
+.projects-text-wrapper .left {
   float: left;
   width: 20%;
 }
@@ -283,7 +550,7 @@ PROJECT SPECIFIC PAGES
   width: 60%;
 }
 
-.right {
+.projects-text-wrapper.right {
   float: right;
   width: 20%;
 }
@@ -942,6 +1209,12 @@ body {
   line-height: 1.5em;
 }
 
+#projects-content-wrapper-two {
+  padding: 55% 2% 2% 2%;
+  line-height: 1.5em;
+  z-index: 4;
+}
+
 #projects-image-wrapper {
   padding: 4%;
 }
@@ -963,7 +1236,7 @@ body {
 .mobile-project-title h3 {
   display: block;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.2em;
@@ -971,6 +1244,36 @@ body {
   color: #d16903;
 }
 
+#contactDetails {
+  padding-top: 35%;
+}
+
+.contactForm {
+  flex-direction: column;
+  width: 100%;
+  padding: 5%;
+}
+
+.detailsMobile {
+  width: 100%;
+  padding: 10%;
+}
+
+#about-wrapper {
+  padding: 25% 4% 4% 4%;
+}
+
+.creative-projects h3 {
+  line-height: 1.5em;
+  padding: 25% 2% 10% 2%;
+}
+
+.textBio-left {
+  width: 100%;
+}
+
+.textBio-right {
+  width: 100%;
 }
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
