@@ -1203,6 +1203,15 @@ body {
   width: auto;
 }
 
+
+#mainContent {
+  padding-top: 30%;
+}
+
+#mainContent img {
+  min-height: 400px;
+} 
+
 .hamburger-image {
   top: 5rem;
   left: calc(90% - 70px);
@@ -1288,6 +1297,14 @@ body {
 
 body {
   width: auto;
+}
+
+#mainContent {
+  padding-top: 30%;
+}
+
+#mainContent img {
+  min-height: 400px;
 }
 
 .hamburger-image {
