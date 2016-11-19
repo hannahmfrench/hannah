@@ -13,6 +13,41 @@ $(document).ready(function(){
   })
 });
 
+$(document).ready(function(){
+
+  $('#all').click(function (e) {
+    e.preventDefault();
+    $('.stillImages').show();
+    $('.projects').show();
+    $('.movingImages').show();
+    $('.movingImagesProjects').hide();
+  });
+
+  $('#movingImages').click(function (e) {
+    e.preventDefault();
+    $('.stillImages').hide();
+    $('.projects').hide();
+    $('.movingImagesProjects').show();
+    $('.movingImages').show();
+  });
+
+  $('#projects').click(function (e) {
+    e.preventDefault();
+    $('.stillImages').hide();
+    $('.projects').show();
+    $('.movingImagesProjects').show();
+    $('.movingImages').hide();
+  });
+
+  $('#stillImages').click(function (e) {
+    e.preventDefault();
+    $('.stillImages').show();
+    $('.projects').hide();
+    $('.movingImages').hide();
+    $('.movingImagesProjects').hide();
+  });
+});
+
 $(document).ready(function () {
     $('.imgh')
         .mouseover(function () {
@@ -129,3 +164,5 @@ $(document).ready(function() {
         imageFour.setImageDirection();
         imageFive.setImageDirection();
     }
+
+
