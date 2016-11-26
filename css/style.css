@@ -76,7 +76,7 @@ body {
   z-index: 10002;
   position: absolute;
   transition: all 350ms ease-in-out;
-  top: 1rem;
+  top: 1.5rem;
   width: 100%;
   height: auto;
 }
@@ -193,7 +193,6 @@ HOME
 ABOUT
 ==================================== */
 
-
 #about-wrapper {
   display: flex;
   flex-direction: column;
@@ -203,11 +202,11 @@ ABOUT
 
 #title-wrapper-about {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.7em;
+  font-size: 1.4em;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.1em;
-  line-height: 2em;
+  line-height: 1.5em;
   font-weight: 700;
   color: #000;
   width: 100%;
@@ -224,7 +223,7 @@ ABOUT
   letter-spacing: 0.2em;
   color: #000;
   background-color: #f7f7f7;
-  padding: 5% 2% 5% 2%;
+  padding: 2% 2% 5% 2%;
   width: 100%;
 }
 
@@ -277,11 +276,11 @@ ABOUT
 
 .title-wrapper-creative {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.7em;
+  font-size: 1.3em;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.1em;
-  line-height: 2em;
+  line-height:  1.3em;
   font-weight: 700;
   color: #000;
   width: 100%;
@@ -300,7 +299,6 @@ ABOUT
   font-weight: 900;
 }
 
-
 .textBio-left {
   width: 45%;
   float: left;
@@ -310,7 +308,7 @@ ABOUT
   line-height: 1.5em;
   font-style: italic;
   text-align: center;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
 }
 
 .textBio-right {
@@ -321,7 +319,7 @@ ABOUT
   line-height: 1.5em;
   font-style: italic;
   text-align: center;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
 }
 
 /* ====================================
@@ -339,7 +337,7 @@ CONTACT
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.1em;
-  line-height: 2em;
+  line-height: 1.5em;
   font-weight: 700;
   color: #000;
   width: 100%;
@@ -528,7 +526,6 @@ MOVING IMAGES/ PROJECTS / STILL IMAGES
   padding: 1.2em;
 }
 
-
 #optionsMenu ul {
   display: flex;
   justify-content: center;
@@ -593,7 +590,6 @@ MOVING IMAGES/ PROJECTS / STILL IMAGES
   text-align: center;
 }
 
-
 /* ====================================
 PROJECT SPECIFIC PAGES
 ==================================== */
@@ -642,11 +638,11 @@ PROJECT SPECIFIC PAGES
 
 .projects-title-wrapper {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.4em;
-  line-height: 2em;
+  line-height:  1.3em;
   font-weight: 700;
   color: #000;
   width: 100%;
@@ -655,7 +651,7 @@ PROJECT SPECIFIC PAGES
 
 .projects-text-wrapper {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 900;
   line-height: 1.5em;
   font-style: italic;
@@ -663,7 +659,7 @@ PROJECT SPECIFIC PAGES
   letter-spacing: 0.2em;
   color: #000;
   background-color: #f7f7f7;
-  padding-top: 2% 0 2% 0;
+  padding: 2% 2% 5% 2%;
 }
 
 .projects-text-wrapper .middle {
@@ -690,13 +686,11 @@ PROJECT SPECIFIC PAGES
 }
 
 #projects-video-wrapper iframe {
-  padding-left: 5%;
-  padding-right: 5%;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  left: 5%;
+  width: 90%;
+  height: 80%;
 }
 
 #animated-button {
@@ -710,15 +704,17 @@ PROJECT SPECIFIC PAGES
   background: #f7f7f7;
   padding: 10px 14px;
   margin: 25px;
-  font-family: 'Roboto', sans-serif;
   border: 2px solid #d16903;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
   text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1.1em;
+  font-weight: 600;
+  color: #000;
   border-radius: 2px;
   display: inline-block;
-  text-align: center;
   cursor: pointer;
   box-shadow: inset 0 0 0 0 #d16903;
   -webkit-transition: all ease 0.8s;
@@ -1182,13 +1178,6 @@ body {
 }
 
 
-#projects-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  padding: 15% 2% 2% 2%;
-  background-color: #f7f7f7;
-}
-
 }
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -1210,7 +1199,6 @@ body {
 .hamburger-image {
   top: 5rem;
   left: 45%;
-
 }
 
 .logo {
@@ -1219,12 +1207,12 @@ body {
 
 #projects-content-wrapper {
   padding: 45% 2% 2% 2%;
-  line-height: 1.5em;
+  line-height: 1.1em;
 }
 
 #projects-content-wrapper-two {
   padding: 55% 2% 2% 2%;
-  line-height: 1.5em;
+  line-height: 1.1em;
   z-index: 4;
 }
 
@@ -1271,7 +1259,6 @@ body {
 }
 
 .creative-projects h3 {
-  line-height: 1.1em;
   padding: 25% 2% 10% 2%;
 }
 
@@ -1285,7 +1272,6 @@ body {
 
 #optionsMenu ul {
   font-size: .8em;
-
 }
 
 #optionsMenu li {
