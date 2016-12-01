@@ -48,16 +48,6 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function () {
-    $('.imgh')
-        .mouseover(function () {
-        $(this).attr("src", "images/HumanWalking.gif");
-    })
-        .mouseout(function () {
-        $(this).attr("src", "images/GeckoRunning.gif");
-    });
-});
-
 $(document).ready(function() {
   $('.image-popup-vertical-fit').magnificPopup({
     type: 'image',
