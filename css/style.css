@@ -76,7 +76,7 @@ body {
   z-index: 10002;
   position: absolute;
   transition: all 350ms ease-in-out;
-  top: 1.5rem;
+  top: 1rem;
   width: 100%;
   height: auto;
 }
@@ -1192,7 +1192,7 @@ body {
 }
 
 .logo {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 #projects-content-wrapper {
@@ -1293,7 +1293,7 @@ body {
 }
 
 .logo {
-  padding: 1.5rem 0rem 3rem 1.5rem;
+  padding: 0rem 0rem 3rem 1.5rem;
 }
 
 .image-holder{
